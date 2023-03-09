@@ -70,12 +70,14 @@ for (parts of supplyChanges) {
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log('8. Total supplies available is:');
 
-let totalParts;
 
-for (let i = 0; i <= supplyChanges - 1; i++) {
-    totalParts += supplyChanges[i];
+let totalParts = 0;
+// This doesn't seem like it would work in all cases, but I'm not sure how else to do it.
+for (parts of supplyChanges) {
+    totalParts += parts;
 }
 console.log(totalParts);
+
 
 // 9. We have a large stash of parts in our warehouse that we 
 //    need to box up and get ready for shipment. 
