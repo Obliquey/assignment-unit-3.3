@@ -86,3 +86,15 @@ console.log(totalParts);
 //    no more boxes can be filled.
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
+
+let warehouseSupply = 572;
+let boxes = 0;
+
+
+// Probably a more elegant way to write this loop. Any thoughts?
+while (warehouseSupply > 6) {
+    warehouseSupply -= 7;
+    boxes++;
+}
+console.log(`Total boxes filled: ${boxes}`);
+console.log(`Leftover warehouse supplies: ${warehouseSupply}`);
