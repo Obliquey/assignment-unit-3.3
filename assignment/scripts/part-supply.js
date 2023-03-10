@@ -71,7 +71,7 @@ for (parts of supplyChanges) {
 console.log('8. Total supplies available is:');
 
 
-let totalParts = 0;
+let totalParts =0 ;
 // This doesn't seem like it would work in all cases, but I'm not sure how else to do it.
 for (parts of supplyChanges) {
     totalParts += parts;
