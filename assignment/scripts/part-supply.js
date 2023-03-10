@@ -41,7 +41,7 @@ for (let i = 0; i <= supplyChanges.length -1; i++) {
     if (supplyChanges[i] > 0){
         console.log(`Added ${supplyChanges[i]} parts.`);
     }
-    else if (supplyChanges[i] == 0) {
+    else if (supplyChanges[i] === 0) {
         console.log('No change');
     }
     else {
